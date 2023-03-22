@@ -1,0 +1,113 @@
+.modal__list {
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.modal {
+	display: block;
+	box-sizing: border-box;
+	margin: 100px auto;
+	width: 780px;
+	padding: 50px 100px;
+	text-align: center;
+	background-color: #F2F0F1;
+	border-radius: 20px;
+}
+
+.modal__title {
+	margin: 0;
+	margin-bottom: 30px;
+	font-family: 'Comfortaa';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 40px;
+	color: #FF8A00;
+}
+
+.modal__subtitle {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.modal__span {
+	font-weight: 550;
+	color: #FF8A00;
+}
+
+.modal__item {
+	margin-bottom: 10px;
+}
+
+.modal__link {
+	position: relative;
+	text-decoration: none;
+	font-weight: 550;
+	color: #282626;
+}
+
+.modal__link::before {
+	content: "";
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: -38px;
+	top: 0;
+	bottom: 0;
+}
+
+.modal__link-call::before {
+	background-image: url("../images/call.svg");
+	background-repeat: no-repeat;
+}
+
+.modal__link-mail::before {
+	background-image: url("../images/email.svg");
+}
+
+.modal__fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.modal__legend {
+	margin-bottom: 15px;
+}
+
+.modal__label {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.modal__text-field {
+	width: 280px;
+	height: 40px;
+	margin-bottom: 20px;
+	border: none;
+	background-color: #ffffff70;
+}
+
+.wrapper {
+	width: 280px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+	text-align: left;
+}
+
+.modal__button {
+	width: 220px;
+	height: 40px;
+	padding: 12px 57px;
+	font-weight: 550;
+	font-size: 12px;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: #FF8A00;
+	border: none;
+	background-color: #282626;
+}

@@ -1,3 +1,6 @@
+@import url("normalize.css");
+@import url("modal.css");
+
 @font-face {
   font-family: "Comfortaa";
   src: url("../fonts/Comfortaa-Regular.woff2") format("woff2"),
@@ -30,7 +33,9 @@
   font-display: swap;
 }
 
-
+* {
+  box-sizing: inherit;
+}
 
 body {
   font-family: "Helvetica Neue Cyr", "Arial", sans-serif;
@@ -39,7 +44,7 @@ body {
   font-weight: 300;
   margin: 0;
   color: #282626;
-  background-color: #282626;
+  background-color: #FFFFFF;
 }
 
 .article {
@@ -104,3 +109,4 @@ body {
 .main-section__paragraph-strong {
   font-weight: 500;
 }
+
