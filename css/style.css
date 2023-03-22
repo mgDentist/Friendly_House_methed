@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../fonts/Comfortaa-Regular.woff2") format("woff2"),
+    url("../fonts/Comfortaa-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Light.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Light.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+
+
+
+body {
+  font-family: "Helvetica Neue Cyr", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  margin: 0;
+  color: #282626;
+  background-color: #282626;
+}
+
+.article {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: #f2f0f1;
+}
+
+.artical-start-container {
+  max-width: 470px;
+  padding: 70px 0 0 70px;
+}
+
+.title {
+  font-family: "Comfortaa";
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.main-section {
+  padding: 100px 70px 100px 70px;
+}
+
+.artical-start-container__title {
+  text-align: center;
+  margin-bottom: 55px;
+  color: #ff8a00;
+}
+
+.main-section__description-list {
+  padding: 0;
+  margin-left: 40px;
+}
+
+.main-section__item-title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.main-section__list-item-first {
+  width: 400px;
+  margin-bottom: 70px;
+  padding-left: 40px;
+}
+
+.main-section__list-item-second {
+  width: 600px;
+  margin-bottom: 70px;
+  padding-left: 40px;
+}
+
+.main-section__list-item-third {
+  width: 450px;
+  margin-bottom: 70px;
+  padding-left: 40px;
+}
+
+.main-section__paragraph-strong {
+  font-weight: 500;
+}
